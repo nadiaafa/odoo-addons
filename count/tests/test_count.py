@@ -8,5 +8,4 @@ class TestModeTest(TransactionCase):
 
 	def test_count_function(self): 
 		value = self.env['count.count'].count(1,9)
-		print value
 		self.assertEqual(value,10)
